@@ -1,0 +1,396 @@
+@font-face {
+    font-family: HIROMISAKE;
+    src: url(../fonte/HIROMISAKE.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Medium;
+    src: url(../fonte/OpenSans-Medium.ttf);
+}
+
+@keyframes anima-key {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+}
+}
+
+header{/*cabeçalho*/
+    display: flex;
+    justify-content:space-around;
+    background-color: #000;
+    font-family: OpenSans-Medium;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header h1 p{
+    font-size: medium;
+}
+
+.zappgif{
+    border-radius: 3px;
+}
+
+.positiongif{
+    text-align: right;
+    margin-top: -8%;
+}
+
+body{
+    /*background-color: rgb(255, 255, 255);*/
+    background-color: rgb(22, 22, 22);
+    margin: auto;
+    background-image: linear-gradient(to right,rgb(251, 149, 255), rgb(0, 0, 0), rgb(255, 255, 255));
+    background-size: 500% 100%;
+    animation: anima-key 10s infinite alternate;
+}
+
+.imgbody{
+    background-image: url(../img/Sakura_Background.com.png);
+    background-attachment: fixed;
+}
+
+    nav{/*menu principal horizontal(cada botão é independente)*/
+        margin-top: 1%;
+        text-align: center;
+    }
+        .btn1{
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 200px;
+            height: 50px;
+            box-shadow: 5px 5px 10px #000;
+        }
+
+        .btn1:hover{/*BOTÃO 1*/
+            transform: scale(1.03);
+            background-color: rgb(255, 8, 0) ;
+        }
+        
+        .btn1:active{
+            background-color: rgb(255, 255, 255) ;
+            color:rgb(255, 8, 0);
+        } 
+
+        .n1{
+            text-decoration: none;
+            font-family:HIROMISAKE;
+            font-size: larger;
+            color:rgb(0, 0, 0);
+        }
+
+        .n1:hover{
+            transform:scale(1.5);
+            display:grid;
+        }
+
+        .btn2{/*BOTÃO 2*/
+            background-image: linear-gradient(to right,rgb(250, 101, 225), rgb(255, 0, 242), rgb(119, 0, 255));
+            background-size: 500% 100%;
+            animation: anima-key 1s infinite alternate;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 200px;
+            height: 50px;
+            box-shadow: 5px 5px 10px #000;
+        }
+
+        .btn2:hover{
+            transform: scale(1.03);
+        }
+        
+        .btn2:active{
+            background-image:none;
+        } 
+
+        .n2{
+            text-decoration: none;
+            font-family:HIROMISAKE;
+            font-size: larger;
+            color:rgb(255, 255, 255);
+        }
+
+        .n2:hover{
+            transform:scale(1.5);
+            display:grid;
+        }
+        
+        .btn3{/*BOTÃO 3*/
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 200px;
+            height: 50px;
+            box-shadow: 5px 5px 10px #000;
+        }
+
+        .btn3:hover{
+            transform: scale(1.03);
+            background-color: rgb(255, 8, 0) ;
+        }
+        
+        .btn3:active{
+            background-color: rgb(255, 255, 255) ;
+            color:rgb(255, 8, 0);
+        } 
+
+        .n3{
+            text-decoration: none;
+            font-family:HIROMISAKE;
+            font-size: larger;
+            color:black;
+        }
+
+        .n3:hover{
+            transform:scale(1.5);
+            display:grid;
+        }
+
+        .btn4{/*BOTÃO 4*/
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 200px;
+            height: 50px;
+            box-shadow: 5px 5px 10px #000;
+        }
+
+        .btn4:hover{
+            transform: scale(1.03);
+            background-color: rgb(255, 8, 0) ;
+        }
+        
+        .btn4:active{
+            background-color: rgb(255, 255, 255) ;
+            color:rgb(255, 8, 0);
+        } 
+
+        .n4{
+            text-decoration: none;
+            font-family:HIROMISAKE;
+            font-size: larger;
+            color:black;
+        }
+
+        .n4:hover{
+            transform:scale(1.5);
+            display:grid;
+        }
+
+        .btn5{/*BOTÃO 5*/
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 200px;
+            height: 50px;
+            box-shadow: 5px 5px 10px #000;
+        }
+
+        .btn5:hover{
+            transform: scale(1.03);
+            background-color: rgb(255, 8, 0) ;
+        }
+        
+        .btn5:active{
+            background-color: rgb(255, 255, 255) ;
+            color:rgb(255, 8, 0);
+        } 
+
+        .n5{
+            text-decoration: none;
+            font-family:HIROMISAKE;
+            font-size: larger;
+            color:black;
+        }
+
+        .n5:hover{
+            transform:scale(1.5);
+            display:grid;
+        }
+  
+.menu-f{/* menu vertical*/
+    align-items: center;
+    margin-top: 2%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px; 
+}
+
+    .f1{/*BOTÃO 1*/
+        font-family: HIROMISAKE;
+        font-size:x-large;
+        border:none;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background .3s;
+        border-radius: 5px;
+        background-image: url(../img/ONDA_SOL.png);
+        width: 600px;
+        height: 60px;
+        box-shadow: 5px 5px 10px #000;  
+    }
+
+    .f1:hover{
+        transform: scale(1.03);
+        background-color: rgb(255, 8, 0) ;
+        color:rgb(255, 255, 255);
+    }
+
+    .f1:active{
+        background-color: rgb(150, 22, 6) ;
+        color:rgb(255, 8, 0);
+    }    
+    
+    .f2{/*BOTÃO 2*/
+        font-family: HIROMISAKE;
+        font-size:x-large;
+        border:none;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background .3s;
+        border-radius: 5px;
+        background-image: url(../img/Samurai.png);
+        width: 600px;
+        height: 60px;
+        box-shadow: 5px 5px 10px #000;   
+    }
+
+    .f2:hover{
+        transform: scale(1.03);
+        background-color: rgb(255, 8, 0) ;
+        color:rgb(255, 255, 255);
+    }
+
+    .f2:active{
+        background-color: rgb(150, 22, 6) ;
+        color:rgb(255, 8, 0);
+    }    
+
+    .f3{/*BOTÃO 3*/
+        font-family: HIROMISAKE;
+        font-size:x-large;
+        border:none;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background .3s;
+        border-radius: 5px;
+        background-image: url(../img/Templo.png);
+        width: 600px;
+        height: 60px;
+        box-shadow: 5px 5px 10px #000;  
+    }
+
+    .f3:hover{
+        transform: scale(1.03);
+        background-color: rgb(255, 8, 0) ;
+        color:rgb(255, 255, 255);
+        }
+
+    .f3:active{
+        background-color: rgb(150, 22, 6) ;
+        color:rgb(255, 8, 0);
+    }
+
+    .f4{/*BOTÃO 4*/
+        font-family: HIROMISAKE;
+        font-size:x-large;
+        border:none;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background .3s;
+        border-radius: 5px;
+        background-image: url(../img/Gueixa.png);
+        width: 600px;
+        height: 60px;
+        box-shadow: 5px 5px 10px #000;  
+    }
+
+    .f4:hover{
+        transform: scale(1.03);
+        background-color: rgb(255, 8, 0) ;
+        color:rgb(255, 255, 255);
+    }
+
+    .f4:active{
+        background-color: rgb(150, 22, 6) ;
+        color:rgb(255, 8, 0);
+    }
+
+.ft1{ /*rodapé icones*/
+    max-width: 100%;
+    text-align: center;
+    background-color: rgb(107, 107, 107);
+    margin-top: 2%;
+}
+ 
+    .menuft1a img{
+        margin-top: 3px;
+        padding: 1px;
+        height: 30px;
+        width: 30;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .menuft1a img:hover{
+        background-color: aliceblue;
+    }
+
+    .menuft1a img:active{
+        background-color: rgb(255, 0, 0);
+    }
+
+.ft2{/*rodapé links*/
+    text-align: justify;
+    margin: auto;
+    background-color: #000;
+    font-family: OpenSans-Medium;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 1%;
+}
+    .menuft2a li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .menuft2a li a:hover{
+        text-decoration:underline;
+    }
+
+     .menuft2b li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .menuft2b li a:hover{
+        text-decoration:underline;
+    }
+
+    .menuft2c li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .menuft2c li a:hover {
+       text-decoration: underline;
+    }
+
+    .menucp{
+        background-color: rgb(12, 12, 12);
+        padding: 6px;
+        text-decoration: none;
+        font-family: OpenSans-Medium;
+        font-size: small;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    
