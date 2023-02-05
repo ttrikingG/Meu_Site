@@ -1,2 +1,3 @@
 # Meu_Site
-Meu portfólio pessoal
+Meu portfólio pessoal, na medida em que aprendo novas tecnologias estarei modificando o cod.
+Segue em contrução...
